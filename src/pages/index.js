@@ -6,8 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Translate, {translate} from '@docusaurus/Translate';
-import './index.module.css';
-
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -32,7 +30,6 @@ function HomepageHeader() {
 
           </div>
           <div class="column" className={styles.heroRightImage}>
-            <p>HighGO</p>
           </div>
         </div>
       </div>
