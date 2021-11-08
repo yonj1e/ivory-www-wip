@@ -4,15 +4,57 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.heroBanner_2 {
+  padding: 4rem 4rem;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
+.heroBGImage {
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  background: url("/img/hero.svg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+    background-blend-mode: darken;
+  width: 100%;
+
+}
+
+.heroCenterImage {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+
+.heroLeftImage {
+  background: url("/img/undraw_information.svg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+}
+.heroRightImage {
+  background: url("/img/hero.svg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+}
+@media screen and (min-width: 997px) {
+  /* Show inline table of contents on mobile only */
+  div[class^='tableOfContentsInline'] {
+    display: none;
   }
 }
 
@@ -21,3 +63,4 @@
   align-items: center;
   justify-content: center;
 }
+
