@@ -13,11 +13,10 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div class="row">
-          <div class="column" className={styles.heroLeftImage}>
-          <p>PostgreSQL</p>
+          <div className={styles.heroLeftImage}>
           </div>
 
-          <div class="column" className={styles.heroCenterImage}>
+          <div className={styles.heroCenterImage}>
           <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -29,7 +28,7 @@ function HomepageHeader() {
         </div>
 
           </div>
-          <div class="column" className={styles.heroRightImage}>
+          <div className={styles.heroRightImage}>
           </div>
         </div>
       </div>
