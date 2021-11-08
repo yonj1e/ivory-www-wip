@@ -16,6 +16,7 @@ function HomepageHeader() {
       <div className="container">
         <div class="row">
           <div class="column" className={`${styles.heroBanner_2} ${styles.heroLeftImage}`}>
+          <p>PostgreSQL</p>
           </div>
 
           <div class="column" className={styles.heroCenterImage}>
@@ -31,7 +32,7 @@ function HomepageHeader() {
 
           </div>
           <div class="column" className={`${styles.heroBanner_2} ${styles.heroRightImage}`}>
-
+            <p>HighGO</p>
           </div>
         </div>
       </div>
