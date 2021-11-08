@@ -15,7 +15,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div class="row">
-          <div class="column" className={`${styles.heroBanner_2} ${styles.heroLeftImage}`}>
+          <div class="column" className={styles.heroLeftImage}>
           <p>PostgreSQL</p>
           </div>
 
@@ -31,7 +31,7 @@ function HomepageHeader() {
         </div>
 
           </div>
-          <div class="column" className={`${styles.heroBanner_2} ${styles.heroRightImage}`}>
+          <div class="column" className={styles.heroRightImage}>
             <p>HighGO</p>
           </div>
         </div>
