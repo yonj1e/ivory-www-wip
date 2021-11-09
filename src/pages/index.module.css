@@ -32,8 +32,12 @@
 }
 
 .heroCenterImage {
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: cover;
   background-size: cover;
   width: 50%;
 }
@@ -64,8 +68,22 @@
   div[class^='tableOfContentsInline'] {
     display: none;
   }
+  div[class^='heroCenterImage'] {
+    width: 50%;
+  }
 }
 
+@media screen and (max-width: 997px) {
+  div[class^='heroRightImage'] {
+    display: none;
+  }
+  div[class^='heroLeftImage'] {
+    display: none;
+  }
+  div[class^='heroCenterImage'] {
+    width: 100%;
+  }
+}
 .buttons {
   display: flex;
   align-items: center;
